@@ -25,7 +25,7 @@ This script analyzes log files for suspicious activity patterns and saves the re
 To run the script, use the following command:
 
 ```sh
-python script.py -f <folder_path>
+python log-parser.py -f <folder_path>
 ```
 
 Replace `<folder_path>` with the path to the directory containing the log files you want to analyze.
@@ -33,7 +33,7 @@ Replace `<folder_path>` with the path to the directory containing the log files 
 ## Example
 
 ```sh
-python script.py -f /path/to/log/files
+python log-parser.py -f /path/to/log/files
 ```
 
 ## Output
